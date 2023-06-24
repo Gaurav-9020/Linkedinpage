@@ -1,0 +1,468 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="linkedin.css" />
+  <title>Final - LinkedIn UI Clone</title>
+</head>
+
+<body>
+  <!-- Header Starts -->
+  <div class="header">
+    <div class="header__left">
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/018/930/587/original/linkedin-logo-linkedin-icon-transparent-free-png.png "
+        alt="">
+
+      <div class="header__search">
+        <i class="material-icons"> search </i>
+        <input type="text" />
+      </div>
+    </div>
+
+    <div class="header__right">
+      <div class="headerOption">
+        <i class="material-icons headerOption__icon"> home </i>
+        <h3>Home</h3>
+      </div>
+      <div class="headerOption">
+        <i class="material-icons headerOption__icon"> supervisor_account </i>
+        <h3>My Network</h3>
+      </div>
+      <div class="headerOption">
+        <i class="material-icons headerOption__icon"> business_center </i>
+        <h3>Jobs</h3>
+      </div>
+      <div class="headerOption">
+        <i class="material-icons headerOption__icon"> chat </i>
+        <h3>Messaging</h3>
+      </div>
+      <div class="headerOption">
+        <i class="material-icons headerOption__icon"> notifications </i>
+        <h3>Notifications</h3>
+      </div>
+      <div class="headerOption">
+        <!-- <i class="material-icons headerOption__icon"> account_circle </i> -->
+        <img class="profile" src="img.jpg" alt="">
+        <h3>Me</h3>
+      </div>
+    </div>
+  </div>
+  <!-- Header Ends -->
+
+  <!-- Main Body Starts -->
+  <div class="body__main">
+    <!-- Sidebar Starts -->
+    <div class="sidebar">
+      <div class="sidebar__top">
+        <img class="theme"
+          src="https://images.unsplash.com/photo-1579546929518-9e396f3cc809?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMjA3fDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&w=1080"
+          alt="" />
+        <img class="profile" src="img.jpg" alt="">
+
+        <!-- <i class="material-icons sidebar__topAvatar"> account_circle </i>  -->
+
+        <h2>Gaurav Panchal</h2>
+        <h4>gauravpanchal9020@gmail.com</h4>
+      </div>
+
+      <div class="sidebar__stats">
+        <div class="sidebar__stat">
+          <p>Who Viewed You</p>
+          <p class="sidebar__statNumber">2,453</p>
+        </div>
+        <div class="sidebar__stat">
+          <p>Views on post</p>
+          <p class="sidebar__statNumber">2,650</p>
+        </div>
+      </div>
+
+      <div class="sidebar__bottom">
+        <p>Recent</p>
+        <div class="sidebar__recentItem">
+          <span class="sidebar__hash">#</span>
+          <p>HTML</p>
+        </div>
+        <div class="sidebar__recentItem">
+          <span class="sidebar__hash">#</span>
+          <p>Programming</p>
+        </div>
+        <div class="sidebar__recentItem">
+          <span class="sidebar__hash">#</span>
+          <p>Web devloper</p>
+        </div>
+        <div class="sidebar__recentItem">
+          <span class="sidebar__hash">#</span>
+          <p>Design</p>
+        </div>
+        <div class="sidebar__recentItem">
+          <span class="sidebar__hash">#</span>
+          <p>Developer</p>
+        </div>
+      </div>
+    </div>
+    <!-- Sidebar Ends -->
+
+    <!-- Feed Starts -->
+    <div class="feed">
+
+      <div class="feed__inputContainer">
+        <div class="feed__input__parent">
+          <!-- <i class="material-icons sidebar__topAvatar"> account_circle </i> -->
+          <img class="profile" src="img.jpg" alt="">
+          <div class="feed__input">
+            <i class="mterial-icons"> create </i>
+            <form> <input type="text" placeholder="start a post" />
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="feed__inputOptions">
+          <div class="inputOption">
+            <i style="color: #70b5f9" class="material-icons"> insert_photo </i>
+            <h4>Photo</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: #e7a33e" class="material-icons"> subscriptions </i>
+            <h4>Video</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: #c0cbcd" class="material-icons"> event_note </i>
+            <h4>Event</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: #7fc15e" class="material-icons"> calendar_view_day </i>
+            <h4>Write Article</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Post Starts -->
+      <div class="post">
+        <div class="post__header">
+          <div class="post__info">
+            <h2>Gaurav Panchal</h2>
+            <p>Post</p>
+          </div>
+        </div>
+
+        <div class="post__body">
+          <!-- <p>Unlock Your Full Potential as a Backend Developer with Our Learn-By-Doing Program!</p> -->
+          <img class="  post" src=" https://neilpatel.com/wp-content/uploads/2018/03/boost-linkedin-post-views.jpg  "
+            alt="">
+
+        </div>
+
+        <div class="feed__inputOptions">
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> thumb_up </i>
+            <h4>Like</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> comment </i>
+            <h4>Comment</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> share </i>
+            <h4>Share</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> send </i>
+            <h4>Send</h4>
+          </div>
+        </div>
+      </div>
+      <!-- Post Ends -->
+
+      <!-- Post Starts -->
+      <div class="post">
+        <div class="post__header">
+          <!-- <i class="material-icons sidebar__topAvatar"> account_circle </i>  -->
+          <img class="profile" src="img.jpg" alt="">
+
+          <div class="post__info">
+            <h2>Gaurav Panchal</h2>
+            <p>Post</p>
+          </div>
+        </div>
+
+        <div class="post__body">
+          <!-- <p>Unlock Your Full Potential as a Backend Developer with Our Learn-By-Doing Program!</p> -->
+          <img clas="post"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9B9Fh4v392VTgqa-ZoIkF0EAqZXCP2q6M1g&usqp=CAU "
+            alt="">
+        </div>
+
+        <div class="feed__inputOptions">
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> thumb_up </i>
+            <h4>Like</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> comment </i>
+            <h4>Comment</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> share </i>
+            <h4>Share</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> send </i>
+            <h4>Send</h4>
+          </div>
+        </div>
+      </div>
+      <!-- Post Ends -->
+
+      <!-- Post Starts -->
+      <div class="post">
+        <div class="post__header">
+          <!-- <i class="material-icons sidebar__topAvatar"> account_circle </i> -->
+          <img class="profile" src="img.jpg" alt="">
+
+          <div class="post__info">
+            <h2>Gaurav Panchal</h2>
+            <p> Post</p>
+          </div>
+        </div>
+
+        <div class="post__body">
+          <img class="post"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz0-Rkhr7K9dU8b30gGD14B0SRQdSTOhANMA&usqp=CAU "
+            alt="">
+
+          <!-- <p>Unlock Your Full Potential as a Backend Developer with Our Learn-By-Doing Program!</p> -->
+        </div>
+
+        <div class="feed__inputOptions">
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> thumb_up </i>
+            <h4>Like</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> comment </i>
+            <h4>Comment</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> share </i>
+            <h4>Share</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> send </i>
+            <h4>Send</h4>
+          </div>
+        </div>
+      </div>
+      <!-- Post Ends -->
+
+      <!-- Post Starts -->
+      <div class="post">
+        <div class="post__header">
+          <!-- <i class="material-icons sidebar__topAvatar"> account_circle </i> -->
+          <img class="profile" src="img.jpg" alt="">
+
+          <div class="post__info">
+            <h2>Gaurav Panchal</h2>
+            <p>Post</p>
+          </div>
+        </div>
+
+        <div class="post__body">
+          <img class=" post"
+            src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202104/alexander-shatov-71Qk8ODIBko-u_1200x768.jpeg?size=690:388 "
+            alt="">
+
+          <!-- <p>Unlock Your Full Potential as a Backend Developer with Our Learn-By-Doing Program!</p> -->
+        </div>
+
+        <div class="feed__inputOptions">
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> thumb_up </i>
+            <h4>Like</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> comment </i>
+            <h4>Comment</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> share </i>
+            <h4>Share</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> send </i>
+            <h4>Send</h4>
+          </div>
+        </div>
+      </div>
+      <!-- Post Ends -->
+
+      <!-- Post Starts -->
+      <div class="post">
+        <div class="post__header">
+          <img class="profile" src="img.jpg" alt="">
+          <!-- <i class="material-icons sidebar__topAvatar"> account_circle </i> -->
+          <!-- <img class="profile" src="img.jpg" alt=""> -->
+          <div class="post__info">
+            <h2>Gaurav Panchal</h2>
+            <p> Post</p>
+          </div>
+        </div>
+
+        <div class="post__body">
+          <img class=" post"
+            src=" data:image/jpeg;base64,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"
+            alt="">
+          <!-- <p>Unlock Your Full Potential as a Backend Developer with Our Learn-By-Doing Program!</p> -->
+        </div>
+
+        <div class="feed__inputOptions">
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> thumb_up </i>
+            <h4>Like</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> comment </i>
+            <h4>Comment</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> share </i>
+            <h4>Share</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> send </i>
+            <h4>Send</h4>
+          </div>
+
+        </div>
+      </div>
+      <!-- Post Ends -->
+
+      <!-- Post Starts -->
+      <div class="post">
+        <div class="post__header">
+          <!-- <i class="material-icons sidebar__topAvatar"> account_circle </i> -->
+          <img class="profile" src="img.jpg" alt="">
+
+          <div class="post__info">
+            <h2>Gaurav Panchal</h2>
+            <p>Post</p>
+          </div>
+        </div>
+
+        <div class="post__body">
+          <img class="post"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr_Ko_EP3qbXzs0-w6al7EwX8vF_mHno3gjQ&usqp=CAU "
+            alt="">
+
+          <!-- <p>Unlock Your Full Potential as a Backend Developer with Our Learn-By-Doing Program!</p> -->
+        </div>
+
+        <div class="feed__inputOptions">
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> thumb_up </i>
+            <h4>Like</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> comment </i>
+            <h4>Comment</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> share </i>
+            <h4>Share</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> send </i>
+            <h4>Send</h4>
+          </div>
+        </div>
+      </div>
+      <!-- Post Ends -->
+
+      <!-- Post Starts -->
+      <div class="post">
+        <div class="post__header">
+          <!-- <i class="material-icons sidebar__topAvatar"> account_circle </i> -->
+          <img class="profile" src="img.jpg" alt="">
+          <div class="post__info">
+            <h2>Gaurav Panchal</h2>
+            <p>Post</p>
+          </div>
+        </div>
+
+        <div class="post__body">
+          <img class=" post"
+            src="https://m.economictimes.com/thumb/height-450,width-600,imgsize-170135,msid-60916721/five-ways-to-build-a-rewarding-career.jpg "
+            alt="">
+          <!-- <p>Unlock Your Full Potential as a Backend Developer with Our Learn-By-Doing Program!</p> -->
+        </div>
+
+        <div class="feed__inputOptions">
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> thumb_up </i>
+            <h4>Like</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> comment </i>
+            <h4>Comment</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> share </i>
+            <h4>Share</h4>
+          </div>
+          <div class="inputOption">
+            <i style="color: gray" class="material-icons"> send </i>
+            <h4>Send</h4>
+          </div>
+        </div>
+      </div>
+      <!-- Post Ends -->
+    </div>
+    <!-- Feed Ends -->
+    <!-- Widgets Starts -->
+    <div class="widgets">
+      <div class="widgets__header">
+        <h2>LinkedIn News</h2>
+        <i class="material-icons"> info </i>
+      </div>
+      <div class="widgets__article">
+        <div class="widgets__articleLeft">
+          <i class="material-icons"> fiber_manual_record </i>
+        </div>
+        <div class="widgets__articleRight">
+          <h4>IT firm Aheah to hire 750 people</h4>
+          <p>2 days ago - 4500 readers</p>
+        </div>
+      </div>
+
+      <div class="widgets__article">
+        <div class="widgets__articleLeft">
+          <i class="material-icons"> fiber_manual_record </i>
+        </div>
+        <div class="widgets__articleRight">
+          <h4>IT firm Aheah to hire 750 people</h4>
+          <p>2 days ago - 4500 readers</p>
+        </div>
+      </div>
+
+      <div class="widgets__article">
+        <div class="widgets__articleLeft">
+          <i class="material-icons"> fiber_manual_record </i>
+        </div>
+        <div class="widgets__articleRight">
+          <h4>IT firm Aheah to hire 750 people</h4>
+          <p>2 days ago - 4500 readers</p>
+        </div>
+      </div>
+    </div>
+    <!-- Widgets Ends -->
+  </div>
+  <!-- Main Body Ends -->
+</body>
+
+</html>
